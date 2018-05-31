@@ -99,7 +99,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                 userHandler.wpnid = $.jStorage.get("wpnid"); 
                     //Send data to server through the Ajax call
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/login_2.php',
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/login.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/login.php',
                     data: {action : 'authorization', deviceid: userHandler.appid, gcmid: userHandler.gcmid, formData : $('#check-user').serialize()},
                     type: 'post',
                     async: 'true',
@@ -194,7 +194,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                 // Send data to server through the Ajax call
                 // action is functionality we want to call and outputJSON is our data
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/yearcal.php',
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/yearcal.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/yearcal.php',
                     data: {action : 'authorization', formData : $('#check-cal').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -297,7 +297,7 @@ $(document).on('pagecontainershow', function (e, ui) {
 
             if($('#usernameb').val().length > 0 && $('#passwordb').val().length > 0){
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/inbox.php',
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/inbox.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/inbox.php',
                     data: {action : 'authorization', formData : $('#check-mess').serialize()},
                     type: 'post',
                     async: 'true',
@@ -395,7 +395,7 @@ $(document).on('pagecontainershow', function (e, ui) {
 
             if($('#usernameo').val().length > 0 && $('#passwordo').val().length > 0){
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/health.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/health.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/health.php',
                     data: {action : 'authorization', formData : $('#check-leavelist').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -518,7 +518,7 @@ $(document).on('pagecontainershow', function (e, ui) {
 
             if($('#usernameo').val().length > 0 && $('#passwordo').val().length > 0){
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/attendance.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/attendance.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/attendance.php',
                     data: {action : 'authorization', formData : $('#check-leavelist').serialize()},
                     type: 'post', 
                     async: 'true',
@@ -653,7 +653,7 @@ $(document).on('pagecontainershow', function (e, ui) {
 
             if($('#usernamec').val().length > 0 && $('#passwordc').val().length > 0){
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/pro.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/pro.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/pro.php',
                     data: {action : 'authorization', formData : $('#check-pro').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -767,7 +767,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernamee').val().length > 0 && $('#passworde').val().length > 0){
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/homework.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/homework.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/homework.php',
                     data: {action : 'authorization', formData : $('#check-homework').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -885,7 +885,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernamee').val().length > 0 && $('#passworde').val().length > 0){
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/buschart.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/buschart.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/buschart.php',
                     data: {action : 'authorization', formData : $('#check-homework').serialize()},
                     type: 'post', 
                     async: 'true', 
@@ -1006,7 +1006,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernamef').val().length > 0 && $('#passwordf').val().length > 0){
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/food.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/food.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/food.php',
                     data: {action : 'authorization', formData : $('#check-food').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -1112,7 +1112,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernameo').val().length > 0 && $('#passwordo').val().length > 0){
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/leave.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/leave.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/leave.php',
                     data: {action : 'authorization', formData : $('#check-leavelist').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -1215,7 +1215,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernameh').val().length > 0 && $('#passwordh').val().length > 0){
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/report.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/report.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/report.php',
                     data: {action : 'authorization', formData : $('#check-report').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -1402,7 +1402,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernamegh').val().length > 0 && $('#passwordgh').val().length > 0){ 
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/fees.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/fees.php', 
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/fees.php', 
                     data: {action : 'authorization', formData : $('#check-fees').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -1545,7 +1545,7 @@ $(document).on('pagecontainershow', function (e, ui) {
 
             if($('#usernamei').val().length > 0 && $('#passwordi').val().length > 0){
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/exam.php',
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/exam.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/exam.php',
                     data: {action : 'authorization', formData : $('#check-exam').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -1662,7 +1662,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernamej').val().length > 0 && $('#passwordj').val().length > 0){
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/time.php',
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/time.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/time.php',
                     data: {action : 'authorization', formData : $('#check-time').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -1774,7 +1774,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             if($('#usernamek').val().length > 0 && $('#passwordk').val().length > 0){
 
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/gallery.php', 
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/gallery.php', 
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/gallery.php', 
                     data: {action : 'authorization', formData : $('#check-image').serialize()},
                     type: 'post',                  
                     async: 'true',
@@ -1891,7 +1891,7 @@ $(document).on('pagecontainershow', function (e, ui) {
         $(document).on('click', '#leavesubmit', function() { // catch the form's submit event
             if($('#regnot').val().length > 0 && $('#usernamet').val().length > 0 && $('#clat').val().length > 0 && $('#sect').val().length > 0 && $('#datt').val().length > 0 && $('#messt').val().length > 0){
                     //$.ajax({url: 'http://sbkvapp.themaxtech.dev/api/ios/leaveform.ph',
-                    $.ajax({url: 'http://sbkvapp.themaxtech.com/api/ios/leaveform.php',
+                    $.ajax({url: 'http://app.themaxtech.com/api/ios/leaveform.php',
                     data: {action : 'authorization', formData : $('#check-leave').serialize()},
                     type: 'post',                  
                     async: 'true',
